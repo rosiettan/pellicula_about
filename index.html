@@ -98,7 +98,7 @@
     <br>
     <h3 class="next_text2">Contact us</h3>
     <br>
-
+    <audio id="sound" src="assets/button.mp3"></audio>
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-3">
@@ -106,7 +106,7 @@
                     <div class="card" style="width:300px">
                         <img class="card-img-top" src="assets/images/Raziya.JPG" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title" id="myBtn4">Abutalipova Raziya </h4>
+                            <h4 class="card-title" id="myBtn4" onclick="pushUpMessage()">Abutalipova Raziya </h4>
                             <script>
                                 document.getElementById("myBtn4").addEventListener("click", function() {
                                     alert("Chief Executive Officer. " +
@@ -114,6 +114,9 @@
                                         "a creative person, it's better to call her to the hippodrome for interesting time." +
                                         "      +7 777 023 07 07");
                                 });
+                                function pushUpMessage() {
+                                    document.getElementById('sound').play();
+                                }
                             </script>
                         </div>
                     </div>
@@ -124,7 +127,7 @@
                     <div class="card" style="width:300px">
                         <img class="card-img-top" src="assets/images/Aruzhan.PNG" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title" id="myBtn1">Zhumatay Aruzhan</h4>
+                            <h4 class="card-title" id="myBtn1" onclick="pushUpMessage()">Zhumatay Aruzhan</h4>
                             <script>
                                 document.getElementById("myBtn1").addEventListener("click", function() {
                                     alert("Chief Technical Officer. " +
@@ -132,6 +135,8 @@
                                         "very excellent person, to invite to her home on a first date." +
                                         "      +7 701 794 96 23");
                                 });
+                                function pushUpMessage() {
+                                    document.getElementById('sound').play();}
                             </script>
                         </div>
                     </div>
@@ -142,13 +147,15 @@
                     <div class="card" style="width:300px">
                         <img class="card-img-top" src="assets/images/Ayaulym.PNG" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title" id="myBtn2">Zhailmina Ayaulym</h4>
+                            <h4 class="card-title" id="myBtn2" onclick="pushUpMessage()">Zhailmina Ayaulym</h4>
                             <script>
                                 document.getElementById("myBtn2").addEventListener("click", function() {
                                     alert("Chief Scientific Officer. " +
                                         "A student of Astana IT University, born in Karaganda, a very dramatic person, to invite to the cinema on a first date." +
                                         "      +7 771 39 29 10");
                                 });
+                                function pushUpMessage() {
+                                    document.getElementById('sound').play();}
                             </script>
                         </div>
                     </div>
@@ -159,7 +166,7 @@
                     <div class="card" style="width:300px">
                         <img class="card-img-top" src="assets/images/Rauan.jpg" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title" id="myBtn3">Bakbergen Rauan</h4>
+                            <h4 class="card-title" id="myBtn3" onclick="pushUpMessage()">Bakbergen Rauan</h4>
                             <script>
                                 document.getElementById("myBtn3").addEventListener("click", function() {
                                     alert("Chief Fantasis Officer. " +
@@ -167,6 +174,8 @@
                                         "born in Almaty, is good person." +
                                         "      +7 771 555 55 55");
                                 });
+                                function pushUpMessage() {
+                                    document.getElementById('sound').play();}
                             </script>
                         </div>
                     </div>
